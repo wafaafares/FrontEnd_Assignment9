@@ -1,0 +1,102 @@
+::selection{
+    background: #FEC260;
+    color: black;
+}
+
+body{
+    background: #F7ECDE;
+}
+
+
+
+.title{
+    color:  #352E28;
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.title::before{
+    content: '';
+    position: absolute;
+    bottom: 35%;
+    left: 10%;
+    width: 80%;
+    height: 15%;
+    background-color: #FEC260;
+    z-index: -1;
+    transition: height .5s;
+}
+
+.title:hover::before{
+    height: 50px;    
+}
+.bookmarkBody{
+    border: 2px dotted black;
+    border-right: 0;
+    border-left: 0;
+    
+}
+
+.bookmarkBody h2{
+    background : linear-gradient(to right,#3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color : transparent; 
+} 
+
+section .submitBtn{
+    padding: 6px 48px;
+    background: #c45131;
+    color: white;
+}
+
+section .submitBtn:hover{
+    background: #BB4120;
+    color: white;
+}
+
+table #deleteBtn{
+    background: #e81d36;
+    
+}
+table #visitBtn{
+    background: #9eb23b;
+    
+}
+
+.warningBackground {
+    background: rgba(0, 0, 0, .3);
+}
+
+.box-content .rounded-circle{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: teal;
+}
+
+.box-content .circle-1{
+    background: #F15F5D;
+}
+.box-content .circle-2{
+    background: #FEBE2E;
+}
+.box-content .circle-3{
+    background: #4DB748;
+}
+
+.box-content .box-info p{
+    font-size: 18px;
+    font-family: "PT Sans Caption",sans-serif;
+}
+
+.box-content .box-info .first-line{
+    color : #352E28;
+    font-size: 21px;
+    font-family: "Bree Serif", serif;
+    
+}
+.box-content i{
+    color: #BB4120;
+    font-size: 18px;
+}
